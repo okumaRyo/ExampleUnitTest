@@ -16,6 +16,6 @@ public class Enemy extends LivingThing{
     @Override
     public void wounded(int damage) {
         super.wounded(damage);
-        this.name = "勇者";
+        getName();
     }
 }

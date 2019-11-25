@@ -16,6 +16,6 @@ public class Hero extends LivingThing{
     @Override
     public void wounded(int damage) {
         super.wounded(damage);
-        this.name = "モンスター";
+        getName();
     }
 }
